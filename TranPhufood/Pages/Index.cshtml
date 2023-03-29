@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Sign in";
+}
+
+<div class="text-center">
+    <h3 class="display-4">
+        <a href="Home">
+            <img src="https://dsm01pap005files.storage.live.com/y4mzEX3vnZyrKamEVrQ5DXKUzES5NIRTj4Qu3xC4sf89MO8z4d5oNL5WK3eiVuXMA7pitW2gdMpGDNkMteGJPE6EiBtlYv2JpE0im9mOl1tyNh9ONbrNjNcRUiBQsIrds7zsV3xVx2JnxbJa74Fa9GcbOv2Cu7jo3zQHm6-rp4o2_ngkHAwqMfFmBqbHXzimnV6?encodeFailures=1&width=551&height=551" alt="Logo-TranPhufood" width="100" height="100" style="float: left;"></a>
+        Welcome</h3>
+    <form action="process-form.php" method="post">
+
+        @*<p><label for="tenCanTin">Tên căn tin:</label>&nbsp
+      <input type="text" id="tenCanTin" name="tenCanTin"></p>
+      <p><label for="ghiChu">Ghi chú:</label>&nbsp
+      <input type="text" id="ghiChu" name="ghiChu"></p>
+      <p><input type="submit" value="Nhập thông tin"></p>
+      <a href="DanhSachDatHang">Danh Sach Dat Hang</a>*@
+
+
+      <p><label for="tenDangNhap">Số điện thoại:</label>&nbsp
+      <input type="text" id="tenDangNhap" name="tenDangNhap"></p>
+      <p><label for="matKhau">Mật khẩu:</label>&nbsp
+      <input type="text" id="matKhau" name="matKhau"></p>
+        @*<p><a href="DanhSachDatHang"><input type="submit" value="Đăng nhập"></p>*@
+
+      <partial><a href="Enroll" style="color:blue;">Nếu bạn chưa có tài khoản hãy nhấn vào đây</a></partial>
+
+      <p><a href="Home"><button name="Home.cshtml" type="button" 
+      style="background-color:#E8FFFE; border-radius: 3px; border-width: 0.5px;">
+          Press to buy</button></a></p>
+
+    </form>
+</div>

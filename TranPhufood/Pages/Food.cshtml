@@ -1,0 +1,50 @@
+﻿@page
+@model TranPhufood.Pages.FoodModel
+@{
+	ViewData["Title"] = "Sign in";
+}
+	
+	@*<div class="text-center">
+	<h3 style=""></h3>*@
+
+	
+	<head>		
+		<title>TP food</title>
+	<style>
+	#search {
+		border-width: 1px;
+		border-radius: 5px;
+		width:600px;
+		height:40px;
+		margin-top: 10px;
+		margin-left: 30px;
+		margin-right: 5px;
+		}
+	button.switchsearch{
+		border-width: 0.5px;
+		border-radius: 5px;
+		height:40px;
+		background-color:#F0FFFF;
+	</style>
+	</head>
+	<body>
+		
+		<p>
+	<a href="Home"><img src=
+	"https://dsm01pap005files.storage.live.com/y4mzEX3vnZyrKamEVrQ5DXKUzES5NIRTj4Qu3xC4sf89MO8z4d5oNL5WK3eiVuXMA7pitW2gdMpGDNkMteGJPE6EiBtlYv2JpE0im9mOl1tyNh9ONbrNjNcRUiBQsIrds7zsV3xVx2JnxbJa74Fa9GcbOv2Cu7jo3zQHm6-rp4o2_ngkHAwqMfFmBqbHXzimnV6?encodeFailures=1&width=551&height=551" alt="Logo-TranPhufood" width="100" height="100" >
+	</a>
+		<input type="text" id="search" data-view-id="findproduct" value="" placeholder="Nhập vào để tìm sản phẩm" class="FormSearchStyle__InputRevamp-sc-1idbenb-5 dIEamy">
+		<button class="switchsearch" data-view-id="findproduct"  style="text-align:center;">Tìm kiếm</button>
+	</p>
+		<partial>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Hot_dog_with_mustard.png" alt="remove-icon" width="200" height="200" style="margin-right: 30px"> 	
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Hamburger_%28black_bg%29.jpg/640px-Hamburger_%28black_bg%29.jpg" alt="remove-icon" width="200" height="200"> 
+		
+		<br />
+		<input type="number" id="search" data-view-id="findproduct" value=""  class="FormSearchStyle__InputRevamp-sc-1idbenb-5 dIEamy" style="margin-right: 15px">
+		<input type="number" id="search" data-view-id="findproduct" value=""  class="FormSearchStyle__InputRevamp-sc-1idbenb-5 dIEamy">
+		</partial>
+
+
+	
+	</body>

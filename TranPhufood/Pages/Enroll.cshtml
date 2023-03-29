@@ -1,0 +1,27 @@
+﻿@page
+@model TranPhufood.Pages.EnrollModel
+@{
+}
+
+<div class="text-center">
+    <h3 class="display-4">
+        <a href="Home"><img src="https://dsm01pap005files.storage.live.com/y4mzEX3vnZyrKamEVrQ5DXKUzES5NIRTj4Qu3xC4sf89MO8z4d5oNL5WK3eiVuXMA7pitW2gdMpGDNkMteGJPE6EiBtlYv2JpE0im9mOl1tyNh9ONbrNjNcRUiBQsIrds7zsV3xVx2JnxbJa74Fa9GcbOv2Cu7jo3zQHm6-rp4o2_ngkHAwqMfFmBqbHXzimnV6?encodeFailures=1&width=551&height=551" alt="Logo-TranPhufood" width="100" height="100" style="float: left;"></a>
+        Đăng ký</h3>
+
+    <form action="process-form.php" method="post">
+      <p><label for="userName">Họ và tên:</label>&nbsp
+      <input type="text" id="userName" name="userName"></p>
+      <p><label for="nuName">Mã số:</label>&nbsp
+      <input type="text" id="nuName" name="nuName"></p>
+
+      <p><label for="nuPhone">Số điện thoại:</label>&nbsp
+      <input type="text" id="nuPhone" name="nuPhone"></p>
+      <p><label for="nuClass">Lớp:</label>&nbsp
+      <input type="text" id="nuClass" name="nuClass"></p>
+        @*<p><a href="DanhSachDatHang"><input type="submit" value="Đăng nhập"></p>*@
+
+      <p><a href="Home"><button name="Home.cshtml" type="button" style="background-color:#E8FFFE; border-radius: 3px; border-width: 0.5px;">Đăng ký</button></a></p>
+
+    </form>
+    
+</div>
